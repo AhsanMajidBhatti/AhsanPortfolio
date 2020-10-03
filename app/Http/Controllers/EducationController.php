@@ -49,7 +49,7 @@ class EducationController extends Controller
             'degree' => $request->get('degree'),
             'started' => $request->get('started'),
             'ended' => $request->get('ended'),
-            'gpa' => $request->get('gpa'),
+            'GPA' => $request->get('gpa'),
             'description' => $request->get('description')
         ]);
 
